@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css FlexBox</title>
+    <!-- START CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- END CSS -->
+</head>
+<body>
+<!-- This is a nav-bar -->
+    <div class="nav">CSS Flexbox</div>
+    <div class="page">
+        <div class="paragraph">
+            <div class="container-margin"><p>Container</p></div>
+            <div class="items-margin"><p>Items</p></div>
+        </div>
+        <div class="page-row">
+        <div class="container-head space-evenly">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <div class="container-head space-evenly">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+    </div>
+    <div class="full-width"><hr></div>
+<!-- nav-bar End's -->
+
+
+
+<!-- This is a container of flex-direction -->
+    <div class="paragraph"><p>flex-direction</p></div>
+    <div class="container-flex-direction center">
+        <div class="row-center flex-wrap">
+            <div class="row">
+                <div class="items items-common col center"><img src="arrow-right.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-right.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-right.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-right.svg" alt="arrow-right" height="50px"></div>
+            </div>
+            <div class="row-reverse">
+                <div class="items items-common color center"><img src="arrow-left.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-left.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-left.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-left.svg" alt="arrow-right" height="50px"></div>
+            </div>
+        </div>
+        <div class="column-direction ">
+            <div class="column">
+                <div class="items items-common color center"><img src="arrow-down.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-down.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-down.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-down.svg" alt="arrow-right" height="50px"></div>
+            </div>
+            <div class="column-reverse">
+                <div class="items items-common color center"><img src="arrow-up.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-up.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-up.svg" alt="arrow-right" height="50px"></div>
+                <div class="items items-common color center"><img src="arrow-up.svg" alt="arrow-right" height="50px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width"><hr></div>
+<!-- Flex-direction Ends -->
+
+
+
+<!-- This is a container of flex-wrap -->
+     <div class="paragraph"><p>Flex-wrap</p></div>
+    <div class="container-flex-wrap">
+        <div class="wrap">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items-150 items-common"></div>
+            <div class="items-200 items-common"></div>
+        </div>
+        <div class="wrap">
+            <div class="items-200 items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items-150 items-common"></div>
+        </div>
+    </div>
+    <div class="full-width"><hr></div>
+<!-- flex-wrap Ends -->
+
+
+
+<!-- This is a container of justify-content -->
+     <div class="justify-content">
+        <div class="paragraph"><p>justify-content</p></div>
+        <p>Flex-start</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-start">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <p>Flex-end</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-end">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <p>Center</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-center">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <p>Space-between</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-space-between">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <p>Space-around</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-space-around">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+        <p>Space-evenly</p>
+        <div class="container-justifycontent-order-flex-shrink-grow-basis justify-content-space-evenly">
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+            <div class="items items-common"></div>
+        </div>
+     </div>
+     <div class="full-width"><hr></div>
+<!-- justify-content Ends -->
+
+
+
+<!-- This is a container of Align-content -->
+     <div class="paragraph"><p>Align-content</p></div>
+     <div class=""><p>Flex-Start</p></div>
+     <div class="container-align-content-items-self">
+        <div class="flex-start">
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-287 items-common"></div>
+            <div class="items-w-230 items-common"></div>
+            <div class="items-w-230 items-common"></div>
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+        </div>
+    </div>
+    <div class="full-width"></div>
+    <div class=""><p>Flex-end</p></div>
+    <div class="container-align-content-items-self">
+        <div class="flex-end">
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-287 items-common"></div>
+            <div class="items-w-230 items-common"></div>
+            <div class="items-w-230 items-common"></div>
+            <div class="items-w-400 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+            <div class="items-w-200 items-common"></div>
+        </div>
+    </div>
+    <div class="full-width"></div>
+    <div class=""><p>Center</p></div>
+    <div class="container-align-content-items-self">
+       <div class="center">
+           <div class="items-w-400 items-common"></div>
+           <div class="items-w-400 items-common"></div>
+           <div class="items-w-287 items-common"></div>
+           <div class="items-w-230 items-common"></div>
+           <div class="items-w-230 items-common"></div>
+           <div class="items-w-400 items-common"></div>
+           <div class="items-w-200 items-common"></div>
+           <div class="items-w-200 items-common"></div>
+           <div class="items-w-200 items-common"></div>
+       </div>
+    </div>
+    <div class="full-width"></div>
+    <div class=""><p>Stretch</p></div>
+    <div class="container-align-content-items-self">
+       <div class="stretch">
+           <div class="align-content-stretch items-w-400 items-common"></div>
+           <div class="align-content-stretch items-w-400 items-common"></div>
+           <div class="align-content-stretch items-w-287 items-common"></div>
+           <div class="align-content-stretch items-w-230 items-common"></div>
+           <div class="align-content-stretch items-w-230 items-common"></div>
+           <div class="align-content-stretch items-w-400 items-common"></div>
+           <div class="align-content-stretch items-w-200 items-common"></div>
+           <div class="align-content-stretch items-w-200 items-common"></div>
+           <div class="align-content-stretch items-w-200 items-common"></div>
+       </div>
+    </div>
+    <div class="full-width"></div>
+    <div class=""><p>Space-between</p></div>
+    <div class="container-align-content-items-self">
+      <div class="space-between">
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-287 items-common"></div>
+          <div class="items-w-230 items-common"></div>
+          <div class="items-w-230 items-common"></div>
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+      </div>
+    </div>
+    <div class="full-width"></div>
+    <div class=""><p>Space-around</p></div>
+    <div class="container-align-content-items-self">
+      <div class="space-around">
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-287 items-common"></div>
+          <div class="items-w-230 items-common"></div>
+          <div class="items-w-230 items-common"></div>
+          <div class="items-w-400 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+          <div class="items-w-200 items-common"></div>
+      </div>
+  </div>
+  <div class="full-width"><hr></div>
+<!-- Align-content Ends -->
+
+
+
+<!-- This is a container of Align-items -->
+    <div class="paragraph"><p>Align-items</p></div>
+    <div class=""><p>Flex-Start</p></div>
+    <div class="container-align-content-items-self">
+        <div class="align-items-flex-start">
+            <div class="items-h-200 items-common"></div>
+            <div class="items-h-300 items-common"></div>
+            <div class="items-h-100 items-common"></div>
+            <div class="items-h-200 items-common"></div>
+        </div>
+    </div>
+
+    <div class="full-width"></div>
+
+    <div class=""><p>Flex-end</p></div>
+    <div class="container-align-content-items-self">
+        <div class="align-items-flex-end">
+            <div class="items-h-200 items-common"></div>
+            <div class="items-h-300 items-common"></div>
+            <div class="items-h-100 items-common"></div>
+            <div class="items-h-200 items-common"></div>
+        </div>
+    </div>
+
+    <div class="full-width"></div>
+
+    <div class=""><p>Center</p></div>
+    <div class="container-align-content-items-self">
+        <div class="align-items-center">
+            <div class="items-h-200 items-common"></div>
+            <div class="items-h-300 items-common"></div>
+            <div class="items-h-100 items-common"></div>
+            <div class="items-h-200 items-common"></div>
+        </div>
+    </div>
+
+    <div class="full-width"></div>
+
+    <div class=""><p>Stretch</p></div>
+    <div class="container-align-content-items-self">
+        <div class="align-items-stretch">
+            <div class="align-stretch items-common"></div>
+            <div class="align-stretch items-common"></div>
+            <div class="align-stretch items-common"></div>
+            <div class="align-stretch items-common"></div>
+        </div>
+    </div>
+
+    <div class="full-width"></div>
+<hr>
+    <div class=""><p>Baseline</p></div>
+    <div class="container-align-content-items-self">
+        <div class="align-items-baseline">
+            <div class="items-h-200 items-common center">1</div>
+            <div class="items-h-300 items-common center">2</div>
+            <div class="items-h-100 items-common center">3</div>
+            <div class="items-h-200 items-common center">4</div>
+        </div>
+    </div>
+    <div class="full-width"></div>
+<!-- Align-items Ends -->
+
+
+
+<!-- This is a container of Order -->
+    <div class="paragraph"><p>Order</p></div>
+    <div class="container-justifycontent-order-flex-shrink-grow-basis">
+        <div class="items-one items-common center">1</div>
+        <div class="items-one items-common center">1</div>
+        <div class="items-one items-common center">1</div>
+        <div class="items-two items-common center">2</div>
+        <div class="items-three items-common center">3</div>
+    </div>
+    <div class="container-justifycontent-order-flex-shrink-grow-basis">
+        <div class="items-one items-common center">1</div>
+        <div class="items-two items-common center">2</div>
+        <div class="items-minus items-common center">-1</div>
+        <div class="items-two items-common center">5</div>
+    </div>
+    <div class="container-order">
+        <div class="items-order items-common one">1</div>
+        <div class="items-order items-common two">2</div>
+        <div class="items-order items-common two">2</div>
+        <div class="items-order items-common nintynine">99</div>
+    </div>
+<!-- Order Ends -->
+
+
+
+<!-- This is a container of Flex-shrink,flex-grow,flex-basis -->
+    <div class="paragraph"><p>Flex-shrink, Flex-grow, Flex-basis</p></div>
+    <p>Flex-shrink</p>
+    <div class="container-justifycontent-order-flex-shrink-grow-basis">
+        <div class="items-shrink items-common center">1</div>
+        <div class="items-shrink items-common center">1</div>
+        <div class="items-shrink items-common center">1</div>
+    </div>
+    <p>Flex-Grow</p>
+    <div class="container-justifycontent-order-flex-shrink-grow-basis">
+        <div class="items-grow-one items-common center"><p>1</p></div>
+        <div class="items-grow items-common center"><p>grow-2</p></div>
+        <div class="items-grow-one items-common center"><p>1</p></div>
+    </div>
+    <p>Flex-Basis</p>
+    <div class="container-justifycontent-order-flex-shrink-grow-basis">
+        <div class="items-basis items-common center"><p>1</p></div>
+        <div class="items-basis-400 items-common center"><p>basis-400px</p></div>
+        <div class="items-basis items-common center"><p>1</p></div>
+    </div>
+<!-- Flex-shrink,flex-grow,flex-basis Ends -->
+
+
+
+<!-- This is a container of Align-Self -->
+    <div class="paragraph"><p>Align-self</p></div>
+    <div class=""><p>align-start</p></div>
+    <div class="container-align-content-items-self">
+    <div class="align-items-flex-start">
+        <div class="items-align-self items-common self-start center">Self-start</div>
+        <div class="items-align-self items-common self-end center">Self-end</div>
+        <div class="items-align-self items-common self-center center">Self-center</div>
+        <div class="items-align-self-stretch items-common self-stretch center">Stretch</div>
+        <!-- <div class="items-align-self items-common self-baseline center">Self-center</div> -->
+    </div>
+    </div>
+    <div class="full-width"></div>
+<!-- Align-self Ends -->
+
+
+
+
+
+
+
+    <!-- Practice.html -->
+     <hr>
+     <a href="practice.html">Practice</a>
+     <br>
+    <div class="inspire">
+        <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Inspired by</a>
+    </div>
+    <!-- Page Ends-->
+    </div>
+</body>
+</html>
