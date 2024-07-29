@@ -1,3 +1,14 @@
+@media only screen and (max-width: 1095px) {
+    .container-flex-direction {
+        height: 1000px !important;
+    }
+    .column-direction {
+        height: 500px !important;
+    }
+
+
+
+
 /* BODY START */
 .nav {
     display: flex;
